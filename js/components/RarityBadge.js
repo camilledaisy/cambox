@@ -1,5 +1,5 @@
-import { h, pixelStar } from '../lib/dom.js?v=20261001222331';
-import { rarityById } from '../lib/gacha.js?v=20261001222331';
+import { h, pixelStar } from '../lib/dom.js?v=20261008165204';
+import { rarityById } from '../lib/gacha.js?v=20261008165204';
 
 /** Stars + label, e.g. ★★★ RARE.  size: 'sm' | 'md' | 'lg' */
 export function RarityBadge(rarityId, { size = 'md', shiny = false } = {}) {

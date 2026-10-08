@@ -1,21 +1,21 @@
 // App bootstrap: views, routing, nav, wiring components together.
-import { h, $, $$, pick, pixelStar } from './lib/dom.js?v=20261001222331';
-import { MESSAGES, ODDS, RARITIES, PACK } from './config.js?v=20261001222331';
-import { CARDS } from './data/cards.js?v=20261001222331';
-import { store } from './lib/store.js?v=20261001222331';
-import { sfx } from './lib/sfx.js?v=20261001222331';
-import { slotOdds, fmtPct, fmtOneIn } from './lib/gacha.js?v=20261001222331';
-import { attachTilt } from './lib/tilt.js?v=20261001222331';
-import { toast } from './lib/ui.js?v=20261001222331';
-import { initEasterEggs, logoSecret } from './lib/easterEggs.js?v=20261001222331';
-import { initTracking } from './lib/tracker.js?v=20261001222331';
-import { askForName } from './components/NamePrompt.js?v=20261001222331';
-import { CardPack } from './components/CardPack.js?v=20261001222331';
-import { createReveal } from './components/CardReveal.js?v=20261001222331';
-import { CollectionGrid } from './components/CollectionGrid.js?v=20261001222331';
-import { ProgressTracker } from './components/ProgressTracker.js?v=20261001222331';
-import { RarityBadge } from './components/RarityBadge.js?v=20261001222331';
-import { openCardDetail } from './components/CardDetail.js?v=20261001222331';
+import { h, $, $$, pick, pixelStar } from './lib/dom.js?v=20261008165204';
+import { MESSAGES, ODDS, RARITIES, PACK } from './config.js?v=20261008165204';
+import { CARDS } from './data/cards.js?v=20261008165204';
+import { store } from './lib/store.js?v=20261008165204';
+import { sfx } from './lib/sfx.js?v=20261008165204';
+import { slotOdds, fmtPct, fmtOneIn } from './lib/gacha.js?v=20261008165204';
+import { attachTilt } from './lib/tilt.js?v=20261008165204';
+import { toast } from './lib/ui.js?v=20261008165204';
+import { initEasterEggs, logoSecret } from './lib/easterEggs.js?v=20261008165204';
+import { initTracking } from './lib/tracker.js?v=20261008165204';
+import { askForName } from './components/NamePrompt.js?v=20261008165204';
+import { CardPack } from './components/CardPack.js?v=20261008165204';
+import { createReveal } from './components/CardReveal.js?v=20261008165204';
+import { CollectionGrid } from './components/CollectionGrid.js?v=20261008165204';
+import { ProgressTracker } from './components/ProgressTracker.js?v=20261008165204';
+import { RarityBadge } from './components/RarityBadge.js?v=20261008165204';
+import { openCardDetail } from './components/CardDetail.js?v=20261008165204';
 
 // ------------------------------------------------------------------ home
 const homePack = CardPack();

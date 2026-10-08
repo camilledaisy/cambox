@@ -1,7 +1,7 @@
-import { h } from '../lib/dom.js?v=20261001222331';
-import { CARDS, SPECIAL_CARDS } from '../data/cards.js?v=20261001222331';
-import { store } from '../lib/store.js?v=20261001222331';
-import { Card, CardSilhouette } from './Card.js?v=20261001222331';
+import { h } from '../lib/dom.js?v=20261008165204';
+import { CARDS, SPECIAL_CARDS } from '../data/cards.js?v=20261008165204';
+import { store } from '../lib/store.js?v=20261008165204';
+import { Card, CardSilhouette } from './Card.js?v=20261008165204';
 
 /**
  * Grid of every card: discovered ones render normally, the rest as silhouettes.

@@ -1,7 +1,7 @@
 // Foil booster pack. Two stacked copies of the artwork (top strip + body) are
 // clipped along a jagged cut line so the top can be torn off along a swipe.
-import { h, rand } from '../lib/dom.js?v=20261001222331';
-import { SET, PACK } from '../config.js?v=20261001222331';
+import { h, rand } from '../lib/dom.js?v=20261008165204';
+import { SET, PACK } from '../config.js?v=20261008165204';
 
 // Photo sticker on the front of the pack. Swap the file to change it.
 const COVER = { src: 'images/pack-cover.jpg', position: '50% 50%' };

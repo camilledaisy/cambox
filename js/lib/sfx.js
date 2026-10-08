@@ -1,6 +1,6 @@
 // Sound effects. Everything is synthesised with WebAudio (no files needed);
 // map a name to a file in config.SOUND_FILES to use your own audio instead.
-import { SOUND_FILES } from '../config.js?v=20261001222331';
+import { SOUND_FILES } from '../config.js?v=20261008165204';
 
 const MUTE_KEY = 'camille-blind-box/muted';
 let muted = false;

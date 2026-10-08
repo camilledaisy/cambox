@@ -1,7 +1,7 @@
 // Pointer-driven 3D tilt. Sets CSS vars the card styles read:
 //   --rx / --ry  rotation, --mx / --my  pointer position (for holo + glare),
 //   --hyp        0 at centre → 1 at the edges (holo intensity).
-import { clamp } from './dom.js?v=20261001222331';
+import { clamp } from './dom.js?v=20261008165204';
 
 export function attachTilt(el, { max = 18, target = el } = {}) {
   let rect = null;

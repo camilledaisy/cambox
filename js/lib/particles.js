@@ -1,5 +1,5 @@
 // Lightweight canvas particle system for sparkles, confetti, dust and glitch pixels.
-import { rand, pick } from './dom.js?v=20261001222331';
+import { rand, pick } from './dom.js?v=20261008165204';
 
 const MAX = 700;
 const TAU = Math.PI * 2;

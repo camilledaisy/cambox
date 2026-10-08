@@ -1,4 +1,4 @@
-import { rand, reducedMotion } from './dom.js?v=20261001222331';
+import { rand, reducedMotion } from './dom.js?v=20261008165204';
 
 /**
  * Shake an element for `duration` ms, intensity ramping from→to (px).

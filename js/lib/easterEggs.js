@@ -1,9 +1,9 @@
 // Hidden stuff. Shhh.
-import { h, rand, pick } from './dom.js?v=20261001222331';
-import { SECRET_LOGO } from '../config.js?v=20261001222331';
-import { store } from './store.js?v=20261001222331';
-import { sfx } from './sfx.js?v=20261001222331';
-import { toast, openModal } from './ui.js?v=20261001222331';
+import { h, rand, pick } from './dom.js?v=20261008165204';
+import { SECRET_LOGO } from '../config.js?v=20261008165204';
+import { store } from './store.js?v=20261008165204';
+import { sfx } from './sfx.js?v=20261008165204';
+import { toast, openModal } from './ui.js?v=20261008165204';
 
 /** Click the logo N times fast → secret message + lucky charm for the next box. */
 export function logoSecret(logoEl) {

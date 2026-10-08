@@ -1,12 +1,12 @@
-import { h } from '../lib/dom.js?v=20261001222331';
-import { store } from '../lib/store.js?v=20261001222331';
-import { sfx } from '../lib/sfx.js?v=20261001222331';
-import { rarityById, packChance, fmtOneIn, fmtPct } from '../lib/gacha.js?v=20261001222331';
-import { attachTilt } from '../lib/tilt.js?v=20261001222331';
-import { openModal, toast } from '../lib/ui.js?v=20261001222331';
-import { saveCardImage } from '../lib/cardImage.js?v=20261001222331';
-import { Card } from './Card.js?v=20261001222331';
-import { RarityBadge } from './RarityBadge.js?v=20261001222331';
+import { h } from '../lib/dom.js?v=20261008165204';
+import { store } from '../lib/store.js?v=20261008165204';
+import { sfx } from '../lib/sfx.js?v=20261008165204';
+import { rarityById, packChance, fmtOneIn, fmtPct } from '../lib/gacha.js?v=20261008165204';
+import { attachTilt } from '../lib/tilt.js?v=20261008165204';
+import { openModal, toast } from '../lib/ui.js?v=20261008165204';
+import { saveCardImage } from '../lib/cardImage.js?v=20261008165204';
+import { Card } from './Card.js?v=20261008165204';
+import { RarityBadge } from './RarityBadge.js?v=20261008165204';
 
 const fmtDate = (ts) => (ts ? new Date(ts).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' }) : '—');
 

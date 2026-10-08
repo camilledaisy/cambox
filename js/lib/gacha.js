@@ -1,6 +1,6 @@
 // Pack logic + probability math. Pure functions over config + card data.
-import { RARITIES, HIDDEN_RARITIES, ODDS, PACK } from '../config.js?v=20261001222331';
-import { CARDS, SPECIAL_CARDS } from '../data/cards.js?v=20261001222331';
+import { RARITIES, HIDDEN_RARITIES, ODDS, PACK } from '../config.js?v=20261008165204';
+import { CARDS, SPECIAL_CARDS } from '../data/cards.js?v=20261008165204';
 
 export const ALL_RARITIES = [...RARITIES, ...HIDDEN_RARITIES];
 export const ALL_CARDS = [...CARDS, ...SPECIAL_CARDS];

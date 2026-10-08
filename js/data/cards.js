@@ -1,4 +1,4 @@
-import { INCLUDE_RETIRED_CARDS } from '../config.js?v=20261001222331';
+import { INCLUDE_RETIRED_CARDS } from '../config.js?v=20261008165204';
 
 // ============================================================================
 //  THE CARDS
@@ -336,8 +336,29 @@ const BIRTHDAY_SET = [
     emoji: '😁',
   },
   {
-    id: '068',
+    id: '072',
     no: '025',
+    name: 'Stewie',
+    rarity: 'rare',
+    image: 'images/cards/072-stewie.webp',
+    imagePosition: '30% 35%',
+    description: 'Football head, red overalls, evil plan loading. Victory shall be hers.',
+    era: 'Family Guy Era',
+    stats: { 'Evil Plans': 100, 'Head Shape': 'Football', Overalls: 100, Mercy: 0 },
+    color: '#ffd84a',
+    emoji: '🏈',
+  },
+];
+
+/**
+ * RETIRED — photos not in the 25-card birthday set. They never drop and don't
+ * show in the Camilledex. To bring one back, move it into CARDS above
+ * (and give it a number).
+ */
+export const RETIRED_CARDS = [
+  {
+    id: '068',
+    no: '---',
     name: 'IKEA Cam',
     rarity: 'common',
     image: 'images/cards/068-ikea-cam.webp',
@@ -348,14 +369,6 @@ const BIRTHDAY_SET = [
     color: '#ffe08a',
     emoji: '🍽️',
   },
-];
-
-/**
- * RETIRED — photos not in the 25-card birthday set. They never drop and don't
- * show in the Camilledex. To bring one back, move it into CARDS above
- * (and give it a number).
- */
-export const RETIRED_CARDS = [
   {
     id: '012',
     no: '---',

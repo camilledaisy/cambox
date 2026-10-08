@@ -11,7 +11,7 @@
 //                                            // `uid` makes each copy tradeable later.
 //   flags: { luckyCharm: true, ... }
 // }
-import { STORAGE_KEY } from '../config.js?v=20261001222331';
+import { STORAGE_KEY } from '../config.js?v=20261008165204';
 
 const LOG_LIMIT = 500;
 const newId = () => (crypto.randomUUID?.() ?? Date.now().toString(36) + Math.random().toString(36).slice(2));

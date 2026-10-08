@@ -1,9 +1,9 @@
-import { h, pixelStar } from '../lib/dom.js?v=20261001222331';
-import { SET } from '../config.js?v=20261001222331';
-import { CARDS } from '../data/cards.js?v=20261001222331';
-import { rarityById } from '../lib/gacha.js?v=20261001222331';
-import { bindCardImage } from '../lib/placeholder.js?v=20261001222331';
-import { RarityBadge } from './RarityBadge.js?v=20261001222331';
+import { h, pixelStar } from '../lib/dom.js?v=20261008165204';
+import { SET } from '../config.js?v=20261008165204';
+import { CARDS } from '../data/cards.js?v=20261008165204';
+import { rarityById } from '../lib/gacha.js?v=20261008165204';
+import { bindCardImage } from '../lib/placeholder.js?v=20261008165204';
+import { RarityBadge } from './RarityBadge.js?v=20261008165204';
 
 const cardImg = (card, cls = '') =>
   bindCardImage(

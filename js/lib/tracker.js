@@ -1,9 +1,9 @@
 // Sends each player's collection summary to Camille's Google Sheet
 // (see tracking/README.md). Fire-and-forget: the game never waits on it.
-import { TRACKING } from '../config.js?v=20261001222331';
-import { CARDS, SPECIAL_CARDS } from '../data/cards.js?v=20261001222331';
-import { rarityById } from './gacha.js?v=20261001222331';
-import { store } from './store.js?v=20261001222331';
+import { TRACKING } from '../config.js?v=20261008165204';
+import { CARDS, SPECIAL_CARDS } from '../data/cards.js?v=20261008165204';
+import { rarityById } from './gacha.js?v=20261008165204';
+import { store } from './store.js?v=20261008165204';
 
 /** One player's summary: who they are, packs opened, and every card they own. */
 export function playerSummary(state = store.get()) {

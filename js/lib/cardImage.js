@@ -1,12 +1,12 @@
 // Renders a flat PNG of a card (for SAVE CARD) using Canvas2D, then shares
 // (mobile) or downloads it. Kept separate from the DOM card so it works
 // everywhere without screenshot libraries.
-import { SET } from '../config.js?v=20261001222331';
-import { CARDS } from '../data/cards.js?v=20261001222331';
-import { rarityById } from './gacha.js?v=20261001222331';
-import { loadCardImage } from './placeholder.js?v=20261001222331';
-import { h } from './dom.js?v=20261001222331';
-import { openModal } from './ui.js?v=20261001222331';
+import { SET } from '../config.js?v=20261008165204';
+import { CARDS } from '../data/cards.js?v=20261008165204';
+import { rarityById } from './gacha.js?v=20261008165204';
+import { loadCardImage } from './placeholder.js?v=20261008165204';
+import { h } from './dom.js?v=20261008165204';
+import { openModal } from './ui.js?v=20261008165204';
 
 const W = 750;
 const H = 1050;
